@@ -1,6 +1,17 @@
+import "./Closed.css";
+
 const Closed = () => {
   return (
-    <div>Closed: this websapp is not accessible outside working hours</div>
+    <div className="closed">
+      <img
+        src="./closed.jpg"
+        className="closed-image"
+        alt="closed illustration"
+      />
+      <p className="closed-text">
+        <u>Closed</u>: this websapp is not accessible outside working hours
+      </p>
+    </div>
   );
 };
 
